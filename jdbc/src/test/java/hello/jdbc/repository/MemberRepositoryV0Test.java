@@ -22,7 +22,6 @@ public class MemberRepositoryV0Test {
 		
 		//findById
 		Member findMember = repository.findById(member.getMemberId());
-		
 		log.info("findMember={}", findMember);
 		assertThat(findMember).isEqualTo(member);
 	}
