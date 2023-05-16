@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;layoutMain.html&apos; to &apos;thymeleaf-basic/src/main/resources/templates.template.layout&apos;&#x0D;&#x0A;- Original project: &apos;thymeleaf-basic&apos;&#x0D;&#x0A;- Destination element: &apos;thymeleaf-basic/src/main/resources/templates.template.layout&apos;&#x0D;&#x0A;- Original element: &apos;layoutMain.html&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="/src\/main\/resources=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;templates.template.layout" element1="src/main/resources/templates/template/fragment/layoutMain.html" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1682347564984" units="0" version="1.0"/>
+</session>

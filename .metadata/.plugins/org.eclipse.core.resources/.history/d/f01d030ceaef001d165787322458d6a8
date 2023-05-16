@@ -1,0 +1,33 @@
+package com.yj.test.javaTest.baekjoon;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+		int i = sc.nextInt();
+		String[] arr = new String[i];
+		
+//		for(int j=0; j < arr.length; j++) {
+//			arr[j] = sc.next();
+//		}
+		
+		
+		for(int j = 0; j < arr.length; j++) {
+			arr[j] = sc.next();
+			
+			int end = arr[j].length();
+			System.out.print(arr[j].charAt(0));
+			System.out.println(arr[j].substring(end-1));
+		}
+		
+		
+//		String ab = "O";
+//		int end = ab.length();
+//		System.out.print(ab.charAt(0));
+//		System.out.println(ab.substring(end-1));
+		
+	}
+}

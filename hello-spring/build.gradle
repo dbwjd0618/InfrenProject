@@ -1,0 +1,31 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.7.9'
+	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+}
+
+group = 'hello'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+	// 라이브러리를 다운로드 받는 곳 : 아래 dependencies를 가져옴
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	// view 수정 시 재시작 하지 않도록 설정
+	implementation 'org.springframework.boot:spring-boot-devtools'
+	// implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	// DB 붙을 때 필요한 클라이언트
+	runtimeOnly 'com.h2database:h2'
+	// 테스트 라이브러리 - JUNIT5 버전 라이브러리
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

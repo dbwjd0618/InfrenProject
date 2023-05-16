@@ -1,0 +1,22 @@
+package com.yj.test.javaTest.baekjoon;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+		int i = sc.nextInt();
+		String[] arr = new String[i];
+		
+		for(int j=0; j < arr.length; j++) {
+			arr[j] = sc.next();
+		}
+		
+		for(int z=0; z < arr.length; z++) {
+			System.out.println(arr[z]);
+			
+		}
+	}
+}

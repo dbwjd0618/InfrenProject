@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ServletUploadControllerV1.java&apos; to &apos;upload/src/main/java/hello.upload.controller&apos;&#x0D;&#x0A;- Original project: &apos;upload&apos;&#x0D;&#x0A;- Destination element: &apos;upload/src/main/java/hello.upload.controller&apos;&#x0D;&#x0A;- Original element: &apos;hello.upload.controller.ServletUploadControllerV1.java&apos;" description="Copy compilation unit" destination="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;hello.upload.controller" element1="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;hello.upload.controller{ServletUploadControllerV1.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1683704814574" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,17 @@
+package hello.typeconverter.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import hello.typeconverter.type.IpPort;
+
+@Controller
+public class ConverterController {
+
+	@GetMapping("/conveter-view")
+	public String converterView(Model model) {
+		model.addAllAttributes("number", 10000);
+		model.addAllAttributes("ipPort", new IpPort("127.0.0.1", 8080));
+	}
+}
